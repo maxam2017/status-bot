@@ -3,5 +3,5 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.words": ["bottender"]
+  "cSpell.words": ["AUTOINCREMENT", "bottender"]
 }

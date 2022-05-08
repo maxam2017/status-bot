@@ -64,3 +64,6 @@ typings/
 
 # TypeScript compiled directory
 dist
+
+# database
+*.db
