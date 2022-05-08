@@ -2,6 +2,10 @@
 
 Monitor your website by one command. Powered by Telegram bot.
 
+## Demo
+
+https://t.me/status_demo_bot
+
 ## Deployment
 
 1. clone this repository
