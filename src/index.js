@@ -19,11 +19,12 @@ module.exports = async function App(context) {
    * @type {import('bottender').TelegramEvent}
    */
   const event = context.event;
+
   const {
     entities = [],
     text = '',
     chat: { id: chatId },
-  } = event.message;
+  } = event.message || {};
 
   // state management
   function goto(step) {
