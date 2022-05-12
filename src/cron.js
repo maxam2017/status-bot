@@ -18,6 +18,7 @@ cron.schedule('*/5 * * * *', function () {
             `https://api.telegram.org/bot${process.env.TELEGRAM_ACCESS_TOKEN}/sendMessage?${new URLSearchParams({
               chat_id: chatId,
               text: `Oops, something went wrong in ${url}`,
+	      disable_web_page_preview: true,
             })}`
           );
         }
